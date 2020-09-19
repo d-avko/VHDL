@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/Users/dimak/pocp_lab/lab_1/lab1.xst" -ofn "C:/Users/dimak/pocp_lab/lab_1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I lab1.ngc lab1.ngd  
+xst -intstyle ise -ifn "C:/Users/dimak/pocp_lab/lab_1/lab1.xst" -ofn "C:/Users/dimak/pocp_lab/lab_1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I lab1.ngc lab1.ngd  
+xst -intstyle ise -ifn "C:/Users/dimak/pocp_lab/lab_1/lab1.xst" -ofn "C:/Users/dimak/pocp_lab/lab_1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I lab1.ngc lab1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I lab1.ngc lab1.ngd  
+xst -intstyle ise -ifn "C:/Users/dimak/pocp_lab/lab_1/lab1.xst" -ofn "C:/Users/dimak/pocp_lab/lab_1/lab1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I lab1.ngc lab1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I lab1.ngc lab1.ngd  

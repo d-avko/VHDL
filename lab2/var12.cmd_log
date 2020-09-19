@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/VHDL/lab2/var12.xst" -ofn "C:/VHDL/lab2/var12.syr" 

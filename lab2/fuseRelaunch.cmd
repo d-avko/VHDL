@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/VHDL/lab2/var12_test_isim_beh.exe" -prj "C:/VHDL/lab2/var12_test_beh.prj" "work.var12_test" 

@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Oct 16 09:37:15 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Z1" LOCATE = SITE "P4" LEVEL 1;
+COMP "Z2" LOCATE = SITE "N5" LEVEL 1;
+COMP "A" LOCATE = SITE "C3" LEVEL 1;
+COMP "B" LOCATE = SITE "D3" LEVEL 1;
+COMP "S" LOCATE = SITE "E4" LEVEL 1;
+SCHEMATIC END;
+

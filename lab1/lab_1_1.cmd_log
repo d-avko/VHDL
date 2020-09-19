@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/dimak/pocp_lab/lab_1/lab_1_1.xst" -ofn "C:/Users/dimak/pocp_lab/lab_1/lab_1_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I lab_1_1.ngc lab_1_1.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim lab_1_1.ngd lab_1_1_translate.v 

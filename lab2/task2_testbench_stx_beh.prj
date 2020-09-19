@@ -1,0 +1,8 @@
+vhdl isim_temp "lab2_or.vhd"
+vhdl isim_temp "lab2_AND2.vhd"
+vhdl isim_temp "lab1_not.vhd"
+vhdl isim_temp "task1_Struct.vhd"
+vhdl isim_temp "task2_Struct.vhd"
+vhdl isim_temp "task2_Beh.vhd"
+vhdl isim_temp "task2.vhd"
+vhdl isim_temp "task2_testbench.vhd"

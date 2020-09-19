@@ -1,0 +1,7 @@
+vhdl isim_temp "nor_2.vhd"
+vhdl isim_temp "nand_3.vhd"
+vhdl isim_temp "nand_2.vhd"
+vhdl isim_temp "var8_struct.vhd"
+vhdl isim_temp "var8_beh.vhd"
+vhdl isim_temp "var8.vhd"
+vhdl isim_temp "var8_test.vhd"

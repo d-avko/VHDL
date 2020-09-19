@@ -1,0 +1,6 @@
+vhdl work "lab2_or.vhd"
+vhdl work "lab2_not_not_and.vhd"
+vhdl work "lab2_and_not.vhd"
+vhdl work "lab2_AND2.vhd"
+vhdl work "lab1_not.vhd"
+vhdl work "task3_Struct.vhd"

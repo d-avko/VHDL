@@ -1,0 +1,7 @@
+vhdl work "nor_2.vhd"
+vhdl work "nand_3.vhd"
+vhdl work "nand_2.vhd"
+vhdl work "var8_struct.vhd"
+vhdl work "var8_beh.vhd"
+vhdl work "var8.vhd"
+vhdl work "var8_test.vhd"
