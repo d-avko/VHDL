@@ -1,0 +1,5 @@
+vhdl work "xor_2.vhd"
+vhdl work "and_2.vhd"
+vhdl work "or_2.vhd"
+vhdl work "half_adder.vhd"
+vhdl work "adder.vhd"

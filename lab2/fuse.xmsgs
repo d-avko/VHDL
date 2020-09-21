@@ -5,5 +5,11 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="error" file="HDLCompiler" num="1731" delta="unknown" >"C:/VHDL/lab2/adder_tests.vhd" Line 79: found &apos;<arg fmt="%d" index="1">0</arg>&apos; definitions of operator <arg fmt="%s" index="2">&quot;*&quot;</arg>, cannot determine exact overloaded matching definition for <arg fmt="%s" index="2">&quot;*&quot;</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="854" delta="unknown" >"C:/VHDL/lab2/adder_tests.vhd" Line 38: Unit &lt;<arg fmt="%s" index="1">behavior</arg>&gt; ignored due to previous errors.
+</msg>
+
 </messages>
 

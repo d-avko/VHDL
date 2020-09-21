@@ -2,7 +2,7 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date:    01:02:14 10/24/2019 
+-- Create Date:    13:50:17 09/20/2020 
 -- Design Name: 
 -- Module Name:    half_adder - Behavioral 
 -- Project Name: 
@@ -30,30 +30,35 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity half_adder is
-    Port ( IN1 : in  STD_LOGIC;
-           IN2 : in  STD_LOGIC;
-           OUT1 : out  STD_LOGIC;
-           P : out  STD_LOGIC);
+port(
+ A: in std_logic;
+ B: in std_logic;
+ S: out std_logic;
+ C: out std_logic
+);
 end half_adder;
 
-architecture Struct of half_adder is
+architecture Behavioral of half_adder is
 
-component lab2_xor is
-    Port ( IN1 : in  STD_LOGIC;
-           IN2 : in  STD_LOGIC;
-           OUT1 : out  STD_LOGIC);
+component xor_2 is
+port (
+	in1: in std_logic;
+	in2: in std_logic;
+	out1: out std_logic
+);
 end component;
 
-component lab2_and is
-    Port ( AND_IN1 : in  STD_LOGIC;
-           AND_IN2 : in  STD_LOGIC;
-           AND_OUT : out  STD_LOGIC);
+component and_2 is
+Port 		( in1 : in  STD_LOGIC;
+           in2: in  STD_LOGIC;
+           out1 : out STD_LOGIC
+			  );
 end component;
 
 begin
 
-	U1: lab2_xor port map(IN1 => IN1, IN2 => IN2, OUT1 => OUT1);
-	U2: lab2_and port map(AND_IN1 => IN1, AND_IN2 => IN2, AND_OUT => P);
+U1: xor_2 port map (A, B, S);
+U2: and_2 port map (A, B, C);
 
-end Struct;
+end Behavioral;
 

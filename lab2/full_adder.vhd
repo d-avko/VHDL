@@ -1,22 +1,3 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date:    01:11:52 10/24/2019 
--- Design Name: 
--- Module Name:    full_adder - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
---
--- Dependencies: 
---
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
---
-----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -56,9 +37,9 @@ signal O1, P1, P2: STD_LOGIC;
 
 begin
 
-	U1: half_adder port map(IN1 => IN1, IN2 => IN2, OUT1 => O1, P => P1);
-	U2: half_adder port map(IN1 => IN_P, IN2 => O1, OUT1 => OUT1, P => P2);	
-	U3: lab2_or port map(OR2_IN1 => P1, OR2_IN2 => P2, OR2_OUT => OUT_P);
+	U1: half_adder port map(IN1, IN2, O1, P1);
+	U2: half_adder port map(IN_P, O1, OUT1, P2);	
+	U3: lab2_or port map(P1, P2, OUT_P);
 
 end Behavioral;
 
