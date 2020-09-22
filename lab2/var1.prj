@@ -1,0 +1,7 @@
+vhdl work "or_2.vhd"
+vhdl work "my_not.vhd"
+vhdl work "and_3.vhd"
+vhdl work "and_2.vhd"
+vhdl work "var1_struct.vhd"
+vhdl work "var1_beh.vhd"
+vhdl work "var1.vhd"

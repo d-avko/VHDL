@@ -1,0 +1,8 @@
+vhdl isim_temp "or_2.vhd"
+vhdl isim_temp "my_not.vhd"
+vhdl isim_temp "and_3.vhd"
+vhdl isim_temp "and_2.vhd"
+vhdl isim_temp "var1_struct.vhd"
+vhdl isim_temp "var1_beh.vhd"
+vhdl isim_temp "var1.vhd"
+vhdl isim_temp "var1_test.vhd"

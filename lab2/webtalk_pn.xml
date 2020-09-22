@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pn" timeStamp="Mon Sep 21 14:11:16 2020">
+<application name="pn" timeStamp="Tue Sep 22 12:49:48 2020">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="C6FABE18E3AF4D2D852A2839301532A6" type="project"/>
 <property name="ProjectIteration" value="6" type="project"/>
@@ -40,7 +40,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_DevSpeed" value="-3" type="design"/>
 <property name="PROP_PreferredLanguage" value="Verilog" type="design"/>
 <property name="FILE_UCF" value="7" type="source"/>
-<property name="FILE_VHDL" value="34" type="source"/>
+<property name="FILE_VHDL" value="37" type="source"/>
 </section>
 </application>
 </document>

@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "C:/VHDL/lab2/adder_tests_isim_beh.exe" -prj "C:/VHDL/lab2/adder_tests_beh.prj" "work.adder_tests" 
+-intstyle "ise" -incremental -lib "secureip" -o "C:/VHDL/lab2/var1_test_isim_beh.exe" -prj "C:/VHDL/lab2/var1_test_beh.prj" "work.var1_test" 
