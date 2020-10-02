@@ -39,15 +39,17 @@ ARCHITECTURE behavior OF adder_tests IS
  
     -- Component Declaration for the Unit Under Test (UUT)
  
-    COMPONENT adder
-    PORT(
-         A : IN  std_logic;
-         B : IN  std_logic;
-         Cin : IN  std_logic;
-         S : OUT  std_logic;
-         Cout : OUT  std_logic
-        );
-    END COMPONENT;
+    component adder_for_test is
+		port (
+			A: in std_logic;
+			B: in std_logic;
+			Cin: in std_logic;
+			S1: out std_logic;
+			Cout1: out std_logic;
+			S2: out std_logic;
+			Cout2: out std_logic
+		);
+		end component;
     
 
    --Inputs
@@ -56,24 +58,30 @@ ARCHITECTURE behavior OF adder_tests IS
    signal Cin : std_logic := '0';
 
  	--Outputs
-   signal S : std_logic;
-   signal Cout : std_logic;
+   signal S1 : std_logic;
+	signal S2 : std_logic;
+   signal Cout1 : std_logic;
+   signal Cout2 : std_logic;
 	
-	signal SUM_RESULT: std_logic;
+	signal ASSERT_SIGNAL: std_logic;
  
 BEGIN
  
 	-- Instantiate the Unit Under Test (UUT)
-   uut: adder PORT MAP (
+   uut: adder_for_test PORT MAP (
           A => A,
           B => B,
           Cin => Cin,
-          S => S,
-          Cout => Cout
+          S1 => S1,
+          Cout1 => Cout1,
+			 Cout2 => Cout2,
+			 S2 => S2
         );
 
    A <= not A after 2 ns;
 	B <= not B after 4 ns;
 	Cin <= not Cin after 8 ns;
+	
+	ASSERT_SIGNAL <= (Cout1 xor Cout2) or (S1 xor S2);
 
 END;

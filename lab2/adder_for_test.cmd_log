@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/VHDL/lab2/adder_for_test.xst" -ofn "C:/VHDL/lab2/adder_for_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc adder_mappings.ucf -p xc6slx9-ftg256-3 adder_for_test.ngc adder_for_test.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adder_for_test_map.ncd adder_for_test.ngd adder_for_test.pcf 
+par -w -intstyle ise -ol high -mt off adder_for_test_map.ncd adder_for_test.ncd adder_for_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml adder_for_test.twx adder_for_test.ncd -o adder_for_test.twr adder_for_test.pcf -ucf adder_mappings.ucf 
+bitgen -intstyle ise -f adder_for_test.ut adder_for_test.ncd 
