@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/XilinxLabs/Lab4/MyShiftRegisterStruct.xst" -ofn "D:/XilinxLabs/Lab4/MyShiftRegisterStruct.syr" 

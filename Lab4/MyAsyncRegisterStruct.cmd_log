@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/XilinxLabs/Lab4/MyAsyncRegisterStruct.xst" -ofn "D:/XilinxLabs/Lab4/MyAsyncRegisterStruct.syr" 
+xst -intstyle ise -ifn "D:/XilinxLabs/Lab4/MyAsyncRegisterStruct.xst" -ofn "D:/XilinxLabs/Lab4/MyAsyncRegisterStruct.syr" 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/VHDL/Lab3/Task5_JK_trigger_isim_beh.exe" -prj "C:/VHDL/Lab3/Task5_JK_trigger_beh.prj" "work.Task5_JK_trigger" 

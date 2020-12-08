@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\XilinxLabs\Lab4\MySyncRegisterBeh.ncd
+OUTFILE=D:\XilinxLabs\Lab4\MySyncRegisterBeh.bit
+FAMILY=Spartan6
+PART=xc6slx9-2ftg256
+WORKINGDIR=D:\XilinxLabs\Lab4
+LICENSE=WebPack
+USER_INFO=__0_0_0

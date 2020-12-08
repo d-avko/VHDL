@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "D:/XilinxLabs/Lab4/MyShiftRegisterBeh.xst" -ofn "D:/XilinxLabs/Lab4/MyShiftRegisterBeh.syr" 
+xst -intstyle ise -ifn "D:/XilinxLabs/Lab4/MyShiftRegisterBeh.xst" -ofn "D:/XilinxLabs/Lab4/MyShiftRegisterBeh.syr" 
+xst -intstyle ise -ifn "D:/XilinxLabs/Lab4/MyShiftRegisterBeh.xst" -ofn "D:/XilinxLabs/Lab4/MyShiftRegisterBeh.syr" 
+xst -intstyle ise -ifn "D:/XilinxLabs/Lab4/MyShiftRegisterBeh.xst" -ofn "D:/XilinxLabs/Lab4/MyShiftRegisterBeh.syr" 
+xst -intstyle ise -ifn "D:/XilinxLabs/Lab4/MyShiftRegisterBeh.xst" -ofn "D:/XilinxLabs/Lab4/MyShiftRegisterBeh.syr" 
+xst -intstyle ise -ifn "D:/XilinxLabs/Lab4/MyShiftRegisterBeh.xst" -ofn "D:/XilinxLabs/Lab4/MyShiftRegisterBeh.syr" 
+xst -intstyle ise -ifn "D:/XilinxLabs/Lab4/MyShiftRegisterBeh.xst" -ofn "D:/XilinxLabs/Lab4/MyShiftRegisterBeh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-2 MyShiftRegisterBeh.ngc MyShiftRegisterBeh.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MyShiftRegisterBeh_map.ncd MyShiftRegisterBeh.ngd MyShiftRegisterBeh.pcf 
+par -w -intstyle ise -ol high -mt off MyShiftRegisterBeh_map.ncd MyShiftRegisterBeh.ncd MyShiftRegisterBeh.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml MyShiftRegisterBeh.twx MyShiftRegisterBeh.ncd -o MyShiftRegisterBeh.twr MyShiftRegisterBeh.pcf 
+bitgen -intstyle ise -f MyShiftRegisterBeh.ut MyShiftRegisterBeh.ncd 

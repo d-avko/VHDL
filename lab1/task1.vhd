@@ -13,14 +13,22 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity task1 is
     Port ( A : in  STD_LOGIC;
            B : in  STD_LOGIC;
-           S : in  STD_LOGIC;
-           Z : out  STD_LOGIC);
+           D : in  STD_LOGIC;
+			  C: out std_logic
+			  );
 end task1;
 
 architecture Behavioral of task1 is
-
 begin
-Z<=A when S='0' else B;
+
+process(A)
+begin
+	if (A='1') then
+		if (B = '1') then
+			C <= D;
+		end if;
+	end if;
+end process;
 
 end Behavioral;
 

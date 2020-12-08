@@ -1,0 +1,28 @@
+Command line:
+   MyShiftRegister_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64581
+
+Tue Nov 03 16:48:37 2020
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5154.11 Meg
+
+ Total Signals          : 66
+ Total Nets             : 44
+ Total Signal Drivers   : 23
+ Total Blocks           : 19
+ Total Primitive Blocks : 10
+ Total Processes        : 15
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 415
+
+ Total Simulation Time: 1 sec
+
+ Current Memory Usage: 5154.11 Meg
+
+Tue Nov 03 16:48:57 2020
+

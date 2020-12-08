@@ -1,0 +1,2 @@
+vhdl work "MyDLatchWithEnableBeh.vhd"
+vhdl work "SyncRegisterStruct.vhd"

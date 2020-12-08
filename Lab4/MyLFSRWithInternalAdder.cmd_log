@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/XilinxLabs/Lab4/MyLFSRWithInternalAdder.xst" -ofn "D:/XilinxLabs/Lab4/MyLFSRWithInternalAdder.syr" 
+xst -intstyle ise -ifn "D:/XilinxLabs/Lab4/MyLFSRWithInternalAdder.xst" -ofn "D:/XilinxLabs/Lab4/MyLFSRWithInternalAdder.syr" 
+xst -intstyle ise -ifn "D:/XilinxLabs/Lab4/MyLFSRWithInternalAdder.xst" -ofn "D:/XilinxLabs/Lab4/MyLFSRWithInternalAdder.syr" 
+xst -intstyle ise -ifn "D:/XilinxLabs/Lab4/MyLFSRWithInternalAdder.xst" -ofn "D:/XilinxLabs/Lab4/MyLFSRWithInternalAdder.syr" 

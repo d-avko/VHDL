@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-09-19T12:10:23</DateModified>
+  <DateModified>2020-11-02T16:52:07</DateModified>
   <ModuleName>task1</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/VHDL/lab1/iseconfig/task1.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/VHDL/lab1</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/VHDL/lab1\</ImplementationReportsDirectory>
   <DateInitialized>2020-09-19T12:10:22</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

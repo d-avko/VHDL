@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "D:/XilinxLabs/Lab4/MyJohnsonCounter.xst" -ofn "D:/XilinxLabs/Lab4/MyJohnsonCounter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MyJohnsonCounter.ucf -p xc6slx9-ftg256-2 MyJohnsonCounter.ngc MyJohnsonCounter.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MyJohnsonCounter.ucf -p xc6slx9-ftg256-2 MyJohnsonCounter.ngc MyJohnsonCounter.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MyJohnsonCounter_map.ncd MyJohnsonCounter.ngd MyJohnsonCounter.pcf 
+par -w -intstyle ise -ol high -mt off MyJohnsonCounter_map.ncd MyJohnsonCounter.ncd MyJohnsonCounter.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml MyJohnsonCounter.twx MyJohnsonCounter.ncd -o MyJohnsonCounter.twr MyJohnsonCounter.pcf -ucf MyJohnsonCounter.ucf 
+bitgen -intstyle ise -f MyJohnsonCounter.ut MyJohnsonCounter.ncd 
+netgen -intstyle ise -s 2  -pcf MyJohnsonCounter.pcf -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim MyJohnsonCounter.ncd MyJohnsonCounter_timesim.v 
+xst -intstyle ise -ifn "D:/XilinxLabs/Lab4/MyJohnsonCounter.xst" -ofn "D:/XilinxLabs/Lab4/MyJohnsonCounter.syr" 
+xst -intstyle ise -ifn "D:/XilinxLabs/Lab4/MyJohnsonCounter.xst" -ofn "D:/XilinxLabs/Lab4/MyJohnsonCounter.syr" 

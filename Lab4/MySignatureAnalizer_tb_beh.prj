@@ -1,0 +1,5 @@
+vhdl work "Var9Beh_Wrong.vhd"
+vhdl work "Var9Beh.vhd"
+vhdl work "MySygTestLFSR.vhd"
+vhdl work "MySignatureAnalizer.vhd"
+vhdl work "MySignatureAnalizer_tb.vhd"

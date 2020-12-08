@@ -1,0 +1,4 @@
+vhdl isim_temp "MyDLatchWithEnableBeh.vhd"
+vhdl isim_temp "SyncRegisterStruct.vhd"
+vhdl isim_temp "SyncRegister.vhd"
+vhdl isim_temp "MySyncRegister_tb.vhd"

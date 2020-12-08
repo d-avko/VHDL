@@ -1,0 +1,2 @@
+vhdl work "MyDFlipFlopWithAsyncResetBeh.vhd"
+vhdl work "MyShiftRegisterStruct.vhd"

@@ -1,0 +1,2 @@
+vhdl work "MyDLatchBeh.vhd"
+vhdl work "MyAsyncRegisterStruct.vhd"

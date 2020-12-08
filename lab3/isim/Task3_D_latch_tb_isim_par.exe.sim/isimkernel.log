@@ -1,0 +1,28 @@
+Command line:
+   Task3_D_latch_tb_isim_par.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  57256
+
+Fri Oct 30 10:45:18 2020
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5164.96 Meg
+
+ Total Signals          : 96
+ Total Nets             : 62
+ Total Signal Drivers   : 58
+ Total Blocks           : 28
+ Total Primitive Blocks : 23
+ Total Processes        : 59
+ Total Traceable Variables  : 75
+ Total Scalar Nets and Variables : 2531
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 5164.96 Meg
+
+Fri Oct 30 10:45:35 2020
+

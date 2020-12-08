@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/XilinxLabs/Lab4/JohnsonCounter.xst" -ofn "D:/XilinxLabs/Lab4/JohnsonCounter.syr" 
+xst -intstyle ise -ifn "D:/XilinxLabs/Lab4/JohnsonCounter.xst" -ofn "D:/XilinxLabs/Lab4/JohnsonCounter.syr" 

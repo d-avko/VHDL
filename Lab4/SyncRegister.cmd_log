@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/XilinxLabs/Lab4/SyncRegister.xst" -ofn "D:/XilinxLabs/Lab4/SyncRegister.syr" 
+xst -intstyle ise -ifn "D:/XilinxLabs/Lab4/SyncRegister.xst" -ofn "D:/XilinxLabs/Lab4/SyncRegister.syr" 

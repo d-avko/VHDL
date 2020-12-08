@@ -1,0 +1,30 @@
+Command line:
+   Task5_D_trigger_tb_isim_par.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  62286
+
+Mon Nov 16 18:03:12 2020
+
+
+ Elaboration Time: 0.015625 sec
+ Current Memory Usage: 5149.64 Meg
+
+ Total Signals          : 4
+ Total Nets             : 4
+ Total Signal Drivers   : 1
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 1
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 364
+Total Line Count : 4
+
+ Total Simulation Time: 0.65625 sec
+
+ Current Memory Usage: 4992.35 Meg
+
+Mon Nov 16 18:04:58 2020
+
+
+

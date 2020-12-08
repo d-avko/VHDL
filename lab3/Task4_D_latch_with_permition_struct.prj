@@ -1,0 +1,4 @@
+vhdl work "Task2_RS_latch_beh.vhd"
+vhdl work "My_Invertor.vhd"
+vhdl work "My_AND2.vhd"
+vhdl work "Task4_D_latch_with_permition_struct.vhd"

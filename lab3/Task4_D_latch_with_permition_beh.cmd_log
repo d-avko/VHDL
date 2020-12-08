@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/saks2/Desktop/4course/POCP/Lab3/Task4_D_latch_with_permition_beh.xst" -ofn "C:/Users/saks2/Desktop/4course/POCP/Lab3/Task4_D_latch_with_permition_beh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 Task4_D_latch_with_permition_beh.ngc Task4_D_latch_with_permition_beh.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Task4_D_latch_with_permition_beh_map.ncd Task4_D_latch_with_permition_beh.ngd Task4_D_latch_with_permition_beh.pcf 
+par -w -intstyle ise -ol high -mt off Task4_D_latch_with_permition_beh_map.ncd Task4_D_latch_with_permition_beh.ncd Task4_D_latch_with_permition_beh.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Task4_D_latch_with_permition_beh.twx Task4_D_latch_with_permition_beh.ncd -o Task4_D_latch_with_permition_beh.twr Task4_D_latch_with_permition_beh.pcf 
+netgen -intstyle ise -s 3  -pcf Task4_D_latch_with_permition_beh.pcf -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim Task4_D_latch_with_permition_beh.ncd Task4_D_latch_with_permition_beh_timesim.v 

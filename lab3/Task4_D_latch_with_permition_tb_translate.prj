@@ -1,0 +1,2 @@
+verilog work "netgen/translate/Task4_D_latch_with_permition_struct_translate.v"
+vhdl work "Task4_D_latch_with_permition_tb.vhd"

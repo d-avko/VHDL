@@ -1,0 +1,563 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: JohnsonCounter.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "JohnsonCounter.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "JohnsonCounter"
+Output Format                      : NGC
+Target Device                      : xc6slx9-2-ftg256
+
+---- Source Options
+Top Module Name                    : JohnsonCounter
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\XilinxLabs\Lab4\MyTFlipFlop.vhd" into library work
+Parsing entity <MyTFlipFlop>.
+Parsing architecture <Behavioral> of entity <mytflipflop>.
+Parsing VHDL file "D:\XilinxLabs\Lab4\JohnsonCounter.vhd" into library work
+Parsing entity <JohnsonCounter>.
+Parsing architecture <Behavioral> of entity <johnsoncounter>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <JohnsonCounter> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <MyTFlipFlop> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <JohnsonCounter>.
+    Related source file is "D:\XilinxLabs\Lab4\JohnsonCounter.vhd".
+        bitness = 5
+    Summary:
+	no macro.
+Unit <JohnsonCounter> synthesized.
+
+Synthesizing Unit <MyTFlipFlop>.
+    Related source file is "D:\XilinxLabs\Lab4\MyTFlipFlop.vhd".
+    Found 1-bit register for signal <Q>.
+    Found 1-bit register for signal <data>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <MyTFlipFlop> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 10
+ 1-bit register                                        : 10
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+INFO:Xst:2261 - The FF/Latch <data> in Unit <firstFlipFlop> is equivalent to the following FF/Latch, which will be removed : <Q> 
+INFO:Xst:2261 - The FF/Latch <data> in Unit <flipFlops[1].flipFlop> is equivalent to the following FF/Latch, which will be removed : <Q> 
+INFO:Xst:2261 - The FF/Latch <data> in Unit <flipFlops[2].flipFlop> is equivalent to the following FF/Latch, which will be removed : <Q> 
+INFO:Xst:2261 - The FF/Latch <data> in Unit <flipFlops[3].flipFlop> is equivalent to the following FF/Latch, which will be removed : <Q> 
+INFO:Xst:2261 - The FF/Latch <data> in Unit <flipFlops[4].flipFlop> is equivalent to the following FF/Latch, which will be removed : <Q> 
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 10
+ Flip-Flops                                            : 10
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <JohnsonCounter> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block JohnsonCounter, actual ratio is 0.
+INFO:Xst:2260 - The FF/Latch <flipFlops[4].flipFlop/data> in Unit <JohnsonCounter> is equivalent to the following FF/Latch : <flipFlops[4].flipFlop/Q> 
+INFO:Xst:2260 - The FF/Latch <flipFlops[1].flipFlop/data> in Unit <JohnsonCounter> is equivalent to the following FF/Latch : <flipFlops[1].flipFlop/Q> 
+INFO:Xst:2260 - The FF/Latch <flipFlops[3].flipFlop/data> in Unit <JohnsonCounter> is equivalent to the following FF/Latch : <flipFlops[3].flipFlop/Q> 
+INFO:Xst:2260 - The FF/Latch <firstFlipFlop/data> in Unit <JohnsonCounter> is equivalent to the following FF/Latch : <firstFlipFlop/Q> 
+INFO:Xst:2260 - The FF/Latch <flipFlops[2].flipFlop/data> in Unit <JohnsonCounter> is equivalent to the following FF/Latch : <flipFlops[2].flipFlop/Q> 
+INFO:Xst:2261 - The FF/Latch <flipFlops[4].flipFlop/data> in Unit <JohnsonCounter> is equivalent to the following FF/Latch, which will be removed : <flipFlops[4].flipFlop/Q> 
+INFO:Xst:2261 - The FF/Latch <flipFlops[1].flipFlop/data> in Unit <JohnsonCounter> is equivalent to the following FF/Latch, which will be removed : <flipFlops[1].flipFlop/Q> 
+INFO:Xst:2261 - The FF/Latch <flipFlops[3].flipFlop/data> in Unit <JohnsonCounter> is equivalent to the following FF/Latch, which will be removed : <flipFlops[3].flipFlop/Q> 
+INFO:Xst:2261 - The FF/Latch <firstFlipFlop/data> in Unit <JohnsonCounter> is equivalent to the following FF/Latch, which will be removed : <firstFlipFlop/Q> 
+INFO:Xst:2261 - The FF/Latch <flipFlops[2].flipFlop/data> in Unit <JohnsonCounter> is equivalent to the following FF/Latch, which will be removed : <flipFlops[2].flipFlop/Q> 
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 5
+ Flip-Flops                                            : 5
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : JohnsonCounter.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 5
+#      INV                         : 5
+# FlipFlops/Latches                : 5
+#      FD_1                        : 5
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 5
+#      OBUF                        : 5
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9ftg256-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:               5  out of  11440     0%  
+ Number of Slice LUTs:                    5  out of   5720     0%  
+    Number used as Logic:                 5  out of   5720     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     10
+   Number with an unused Flip Flop:       5  out of     10    50%  
+   Number with an unused LUT:             5  out of     10    50%  
+   Number of fully used LUT-FF pairs:     0  out of     10     0%  
+   Number of unique control sets:         5
+
+IO Utilization: 
+ Number of IOs:                           6
+ Number of bonded IOBs:                   6  out of    186     3%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+---------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)           | Load  |
+-----------------------------------+---------------------------------+-------+
+flipFlops[3].flipFlop/data         | NONE(flipFlops[4].flipFlop/data)| 1     |
+flipFlops[2].flipFlop/data         | NONE(flipFlops[3].flipFlop/data)| 1     |
+flipFlops[1].flipFlop/data         | NONE(flipFlops[2].flipFlop/data)| 1     |
+firstFlipFlop/data                 | NONE(flipFlops[1].flipFlop/data)| 1     |
+C                                  | BUFGP                           | 1     |
+-----------------------------------+---------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 2.300ns (Maximum Frequency: 434.783MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 4.202ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'flipFlops[3].flipFlop/data'
+  Clock period: 2.260ns (frequency: 442.478MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.260ns (Levels of Logic = 1)
+  Source:            flipFlops[4].flipFlop/data (FF)
+  Destination:       flipFlops[4].flipFlop/data (FF)
+  Source Clock:      flipFlops[3].flipFlop/data falling
+  Destination Clock: flipFlops[3].flipFlop/data falling
+
+  Data Path: flipFlops[4].flipFlop/data to flipFlops[4].flipFlop/data
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             2   0.525   0.725  flipFlops[4].flipFlop/data (flipFlops[4].flipFlop/data)
+     INV:I->O              1   0.255   0.681  flipFlops[4].flipFlop/data_INV_4_o1_INV_0 (flipFlops[4].flipFlop/Q_rstpot)
+     FD_1:D                    0.074          flipFlops[4].flipFlop/data
+    ----------------------------------------
+    Total                      2.260ns (0.854ns logic, 1.406ns route)
+                                       (37.8% logic, 62.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'flipFlops[2].flipFlop/data'
+  Clock period: 2.300ns (frequency: 434.783MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.300ns (Levels of Logic = 1)
+  Source:            flipFlops[3].flipFlop/data (FF)
+  Destination:       flipFlops[3].flipFlop/data (FF)
+  Source Clock:      flipFlops[2].flipFlop/data falling
+  Destination Clock: flipFlops[2].flipFlop/data falling
+
+  Data Path: flipFlops[3].flipFlop/data to flipFlops[3].flipFlop/data
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             3   0.525   0.765  flipFlops[3].flipFlop/data (flipFlops[3].flipFlop/data)
+     INV:I->O              1   0.255   0.681  flipFlops[3].flipFlop/data_INV_4_o1_INV_0 (flipFlops[3].flipFlop/Q_rstpot)
+     FD_1:D                    0.074          flipFlops[3].flipFlop/data
+    ----------------------------------------
+    Total                      2.300ns (0.854ns logic, 1.446ns route)
+                                       (37.1% logic, 62.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'flipFlops[1].flipFlop/data'
+  Clock period: 2.300ns (frequency: 434.783MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.300ns (Levels of Logic = 1)
+  Source:            flipFlops[2].flipFlop/data (FF)
+  Destination:       flipFlops[2].flipFlop/data (FF)
+  Source Clock:      flipFlops[1].flipFlop/data falling
+  Destination Clock: flipFlops[1].flipFlop/data falling
+
+  Data Path: flipFlops[2].flipFlop/data to flipFlops[2].flipFlop/data
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             3   0.525   0.765  flipFlops[2].flipFlop/data (flipFlops[2].flipFlop/data)
+     INV:I->O              1   0.255   0.681  flipFlops[2].flipFlop/data_INV_4_o1_INV_0 (flipFlops[2].flipFlop/Q_rstpot)
+     FD_1:D                    0.074          flipFlops[2].flipFlop/data
+    ----------------------------------------
+    Total                      2.300ns (0.854ns logic, 1.446ns route)
+                                       (37.1% logic, 62.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'firstFlipFlop/data'
+  Clock period: 2.300ns (frequency: 434.783MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.300ns (Levels of Logic = 1)
+  Source:            flipFlops[1].flipFlop/data (FF)
+  Destination:       flipFlops[1].flipFlop/data (FF)
+  Source Clock:      firstFlipFlop/data falling
+  Destination Clock: firstFlipFlop/data falling
+
+  Data Path: flipFlops[1].flipFlop/data to flipFlops[1].flipFlop/data
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             3   0.525   0.765  flipFlops[1].flipFlop/data (flipFlops[1].flipFlop/data)
+     INV:I->O              1   0.255   0.681  flipFlops[1].flipFlop/data_INV_4_o1_INV_0 (flipFlops[1].flipFlop/Q_rstpot)
+     FD_1:D                    0.074          flipFlops[1].flipFlop/data
+    ----------------------------------------
+    Total                      2.300ns (0.854ns logic, 1.446ns route)
+                                       (37.1% logic, 62.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'C'
+  Clock period: 2.300ns (frequency: 434.783MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.300ns (Levels of Logic = 1)
+  Source:            firstFlipFlop/data (FF)
+  Destination:       firstFlipFlop/data (FF)
+  Source Clock:      C falling
+  Destination Clock: C falling
+
+  Data Path: firstFlipFlop/data to firstFlipFlop/data
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             3   0.525   0.765  firstFlipFlop/data (firstFlipFlop/data)
+     INV:I->O              1   0.255   0.681  firstFlipFlop/data_INV_4_o1_INV_0 (firstFlipFlop/Q_rstpot)
+     FD_1:D                    0.074          firstFlipFlop/data
+    ----------------------------------------
+    Total                      2.300ns (0.854ns logic, 1.446ns route)
+                                       (37.1% logic, 62.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'flipFlops[3].flipFlop/data'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.162ns (Levels of Logic = 1)
+  Source:            flipFlops[4].flipFlop/data (FF)
+  Destination:       Q<4> (PAD)
+  Source Clock:      flipFlops[3].flipFlop/data falling
+
+  Data Path: flipFlops[4].flipFlop/data to Q<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             2   0.525   0.725  flipFlops[4].flipFlop/data (flipFlops[4].flipFlop/data)
+     OBUF:I->O                 2.912          Q_4_OBUF (Q<4>)
+    ----------------------------------------
+    Total                      4.162ns (3.437ns logic, 0.725ns route)
+                                       (82.6% logic, 17.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'flipFlops[2].flipFlop/data'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.202ns (Levels of Logic = 1)
+  Source:            flipFlops[3].flipFlop/data (FF)
+  Destination:       Q<3> (PAD)
+  Source Clock:      flipFlops[2].flipFlop/data falling
+
+  Data Path: flipFlops[3].flipFlop/data to Q<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             3   0.525   0.765  flipFlops[3].flipFlop/data (flipFlops[3].flipFlop/data)
+     OBUF:I->O                 2.912          Q_3_OBUF (Q<3>)
+    ----------------------------------------
+    Total                      4.202ns (3.437ns logic, 0.765ns route)
+                                       (81.8% logic, 18.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'flipFlops[1].flipFlop/data'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.202ns (Levels of Logic = 1)
+  Source:            flipFlops[2].flipFlop/data (FF)
+  Destination:       Q<2> (PAD)
+  Source Clock:      flipFlops[1].flipFlop/data falling
+
+  Data Path: flipFlops[2].flipFlop/data to Q<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             3   0.525   0.765  flipFlops[2].flipFlop/data (flipFlops[2].flipFlop/data)
+     OBUF:I->O                 2.912          Q_2_OBUF (Q<2>)
+    ----------------------------------------
+    Total                      4.202ns (3.437ns logic, 0.765ns route)
+                                       (81.8% logic, 18.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'firstFlipFlop/data'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.202ns (Levels of Logic = 1)
+  Source:            flipFlops[1].flipFlop/data (FF)
+  Destination:       Q<1> (PAD)
+  Source Clock:      firstFlipFlop/data falling
+
+  Data Path: flipFlops[1].flipFlop/data to Q<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             3   0.525   0.765  flipFlops[1].flipFlop/data (flipFlops[1].flipFlop/data)
+     OBUF:I->O                 2.912          Q_1_OBUF (Q<1>)
+    ----------------------------------------
+    Total                      4.202ns (3.437ns logic, 0.765ns route)
+                                       (81.8% logic, 18.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'C'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.202ns (Levels of Logic = 1)
+  Source:            firstFlipFlop/data (FF)
+  Destination:       Q<0> (PAD)
+  Source Clock:      C falling
+
+  Data Path: firstFlipFlop/data to Q<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             3   0.525   0.765  firstFlipFlop/data (firstFlipFlop/data)
+     OBUF:I->O                 2.912          Q_0_OBUF (Q<0>)
+    ----------------------------------------
+    Total                      4.202ns (3.437ns logic, 0.765ns route)
+                                       (81.8% logic, 18.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock C
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+C              |         |         |    2.300|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock firstFlipFlop/data
+------------------+---------+---------+---------+---------+
+                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------+---------+---------+---------+---------+
+firstFlipFlop/data|         |         |    2.300|         |
+------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock flipFlops[1].flipFlop/data
+--------------------------+---------+---------+---------+---------+
+                          | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock              |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------------+---------+---------+---------+---------+
+flipFlops[1].flipFlop/data|         |         |    2.300|         |
+--------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock flipFlops[2].flipFlop/data
+--------------------------+---------+---------+---------+---------+
+                          | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock              |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------------+---------+---------+---------+---------+
+flipFlops[2].flipFlop/data|         |         |    2.300|         |
+--------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock flipFlops[3].flipFlop/data
+--------------------------+---------+---------+---------+---------+
+                          | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock              |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------------+---------+---------+---------+---------+
+flipFlops[3].flipFlop/data|         |         |    2.260|         |
+--------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.90 secs
+ 
+--> 
+
+Total memory usage is 4486056 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :   16 (   0 filtered)
+

@@ -1,0 +1,301 @@
+(DELAYFILE
+  (SDFVERSION "3.0")
+  (DESIGN "MyJohnsonCounter")
+  (DATE "Fri Oct 23 14:40:09 2020")
+  (VENDOR "Xilinx")
+  (PROGRAM "Xilinx SDF Writer")
+  (VERSION "P.20131013")
+  (DIVIDER /)
+  (VOLTAGE 1.14)
+  (TEMPERATURE 85)
+  (TIMESCALE 1 ps)
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE Q_0_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1396:2722:2722)(1396:2722:2722))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE Q_1_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1396:2722:2722)(1396:2722:2722))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE Q_2_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1396:2722:2722)(1396:2722:2722))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE Q_3_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1396:2722:2722)(1396:2722:2722))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_CKBUF")
+    (INSTANCE C_BUFGP\/BUFG)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (59:209:209)(59:209:209))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE C_BUFGP\/IBUFG)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (672:1338:1338)(672:1338:1338))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp1\.IMUX)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (73:177:177)(73:177:177))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_INV")
+    (INSTANCE INV_flipFlops\[2\]\.flipFlop\/dataCLK)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O ( 0 )( 0 ))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE flipFlops\[2\]\.flipFlop\/data)
+      (DELAY
+        (ABSOLUTE
+          (PORT CLK (98:193:193)(98:193:193))
+          (PORT I (53:119:119)(53:119:119))
+          (IOPATH CLK O (136:332:332)(136:332:332))
+        )
+      )
+      (TIMINGCHECK
+        (PERIOD (posedge CLK) (470))
+        (SETUPHOLD(posedge I) (posedge CLK) (100:148:148)(-92:-91:-91))
+        (SETUPHOLD(negedge I) (posedge CLK) (100:148:148)(-92:-91:-91))
+        (SETUPHOLD(posedge CE) (posedge CLK) (30:72:72)(230:541:541))
+        (SETUPHOLD(negedge CE) (posedge CLK) (30:72:72)(230:541:541))
+        (RECREM(negedge RST) (posedge CLK) (5:11:11)(0))
+      )
+  )
+  (CELL (CELLTYPE "X_LUT6")
+    (INSTANCE flipFlops\[2\]\.flipFlop\/data_INV_4_o1_INV_0)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR5 (27:27:156)(27:27:156))
+          (IOPATH ADR5 O (156:254:254)(156:254:254))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_INV")
+    (INSTANCE INV_flipFlops\[1\]\.flipFlop\/dataCLK)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O ( 0 )( 0 ))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE flipFlops\[1\]\.flipFlop\/data)
+      (DELAY
+        (ABSOLUTE
+          (PORT CLK (64:144:144)(64:144:144))
+          (PORT I (56:107:107)(56:107:107))
+          (IOPATH CLK O (136:332:332)(136:332:332))
+        )
+      )
+      (TIMINGCHECK
+        (PERIOD (posedge CLK) (470))
+        (SETUPHOLD(posedge I) (posedge CLK) (100:143:143)(-60:50:50))
+        (SETUPHOLD(negedge I) (posedge CLK) (100:143:143)(-60:50:50))
+        (SETUPHOLD(posedge CE) (posedge CLK) (17:42:42)(-15:518:518))
+        (SETUPHOLD(negedge CE) (posedge CLK) (17:42:42)(-15:518:518))
+        (RECREM(negedge RST) (posedge CLK) (10:29:29)(-10))
+      )
+  )
+  (CELL (CELLTYPE "X_LUT6")
+    (INSTANCE flipFlops\[1\]\.flipFlop\/data_INV_4_o1_INV_0)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR5 (27:27:156)(27:27:156))
+          (IOPATH ADR5 O (142:235:235)(142:235:235))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_INV")
+    (INSTANCE INV_flipFlops\[3\]\.flipFlop\/dataCLK)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O ( 0 )( 0 ))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE flipFlops\[3\]\.flipFlop\/data)
+      (DELAY
+        (ABSOLUTE
+          (PORT CLK (98:193:193)(98:193:193))
+          (PORT I (53:119:119)(53:119:119))
+          (IOPATH CLK O (136:332:332)(136:332:332))
+        )
+      )
+      (TIMINGCHECK
+        (PERIOD (posedge CLK) (470))
+        (SETUPHOLD(posedge I) (posedge CLK) (100:148:148)(-92:-91:-91))
+        (SETUPHOLD(negedge I) (posedge CLK) (100:148:148)(-92:-91:-91))
+        (SETUPHOLD(posedge CE) (posedge CLK) (30:72:72)(230:541:541))
+        (SETUPHOLD(negedge CE) (posedge CLK) (30:72:72)(230:541:541))
+        (RECREM(negedge RST) (posedge CLK) (5:11:11)(0))
+      )
+  )
+  (CELL (CELLTYPE "X_LUT6")
+    (INSTANCE flipFlops\[3\]\.flipFlop\/data_INV_4_o1_INV_0)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR5 (25:25:154)(25:25:154))
+          (IOPATH ADR5 O (156:254:254)(156:254:254))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_INV")
+    (INSTANCE INV_firstFlipFlop\/dataCLK)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O ( 0 )( 0 ))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE firstFlipFlop\/data)
+      (DELAY
+        (ABSOLUTE
+          (PORT CLK (62:98:98)(62:98:98))
+          (PORT I (43:68:68)(43:68:68))
+          (IOPATH CLK O (136:332:332)(136:332:332))
+        )
+      )
+      (TIMINGCHECK
+        (PERIOD (posedge CLK) (470))
+        (SETUPHOLD(posedge I) (posedge CLK) (86:138:138)(-82:-80:-80))
+        (SETUPHOLD(negedge I) (posedge CLK) (86:138:138)(-82:-80:-80))
+        (SETUPHOLD(posedge CE) (posedge CLK) (35:73:73)(-20:334:334))
+        (SETUPHOLD(negedge CE) (posedge CLK) (35:73:73)(-20:334:334))
+        (RECREM(negedge RST) (posedge CLK) (-13)(13:17:17))
+      )
+  )
+  (CELL (CELLTYPE "X_LUT6")
+    (INSTANCE firstFlipFlop\/data_INV_4_o1_INV_0)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR5 (32:32:161)(32:32:161))
+          (IOPATH ADR5 O (156:259:259)(156:259:259))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_Q_0_OBUF\/I)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (977:977:2173)(977:977:2173))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_Q_1_OBUF\/I)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (1163:1163:2538)(1163:1163:2538))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_Q_2_OBUF\/I)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (1301:1301:2758)(1301:1301:2758))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_Q_3_OBUF\/I)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (1038:1038:2281)(1038:1038:2281))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_C_BUFGP\/BUFG\/IN)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (257:257:884)(257:257:884))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_flipFlops\[2\]\.flipFlop\/data\/CLK)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (425:425:845)(425:425:845))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_flipFlops\[1\]\.flipFlop\/data\/CLK)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (596:596:1207)(596:596:1207))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_flipFlops\[3\]\.flipFlop\/data\/CLK)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (363:363:787)(363:363:787))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_firstFlipFlop\/data\/CLK)
+      (DELAY
+        (PATHPULSE (115))
+        (ABSOLUTE
+          (IOPATH I O (492:492:1435)(492:492:1435))
+        )
+      )
+  )
+)

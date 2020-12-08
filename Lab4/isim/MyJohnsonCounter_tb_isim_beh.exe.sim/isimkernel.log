@@ -1,0 +1,28 @@
+Command line:
+   MyJohnsonCounter_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55900
+
+Tue Nov 03 16:16:08 2020
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5154.16 Meg
+
+ Total Signals          : 7
+ Total Nets             : 12
+ Total Signal Drivers   : 4
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 4
+ Total Traceable Variables  : 11
+ Total Scalar Nets and Variables : 375
+
+ Total Simulation Time: 0.484375 sec
+
+ Current Memory Usage: 5468.74 Meg
+
+Tue Nov 03 16:16:42 2020
+

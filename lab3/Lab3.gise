@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Lab3.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Task2_RS_latch_struct.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Task2_RS_latch_struct.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Task2_RS_latch_struct.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Task2_RS_latch_struct.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Task2_RS_latch_struct.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Task2_RS_latch_struct.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Task2_RS_latch_struct.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Task2_RS_latch_struct.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Task2_RS_latch_struct.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Task2_RS_latch_struct.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Task2_RS_latch_struct.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Task2_RS_latch_struct.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Task2_RS_latch_struct.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Task2_RS_latch_struct.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Task2_RS_latch_struct.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Task2_RS_latch_struct.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Task2_RS_latch_struct.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Task2_RS_latch_struct.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Task2_RS_latch_struct.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Task2_RS_latch_struct_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Task2_RS_latch_struct_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Task2_RS_latch_struct_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Task2_RS_latch_struct_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Task2_RS_latch_struct_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Task2_RS_latch_struct_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Task2_RS_latch_struct_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Task2_RS_latch_struct_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Task2_RS_latch_struct_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Task2_RS_latch_struct_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Task2_RS_latch_struct_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Task2_RS_latch_struct_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Task2_RS_latch_struct_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Task2_RS_latch_struct_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Task2_RS_latch_struct_xst.xrpt"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Task2_RS_latch_tb_isim_par.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Task2_RS_latch_tb_isim_par.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Task2_RS_latch_tb_par.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Task2_RS_latch_tb_stx_par.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Task3_D_latch_beh.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Task3_D_latch_beh.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Task3_D_latch_beh.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Task3_D_latch_beh.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Task3_D_latch_beh.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Task3_D_latch_beh.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Task3_D_latch_beh.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Task3_D_latch_beh.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Task3_D_latch_beh.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Task3_D_latch_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_POWER_REPORT" xil_pn:name="Task3_D_latch_beh.pwr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Task3_D_latch_beh.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Task3_D_latch_beh.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Task3_D_latch_beh.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Task3_D_latch_beh.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Task3_D_latch_beh.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Task3_D_latch_beh.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Task3_D_latch_beh_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Task3_D_latch_beh_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Task3_D_latch_beh_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Task3_D_latch_beh_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Task3_D_latch_beh_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Task3_D_latch_beh_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Task3_D_latch_beh_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Task3_D_latch_beh_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Task3_D_latch_beh_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Task3_D_latch_struct.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Task3_D_latch_struct.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Task3_D_latch_struct.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Task3_D_latch_struct.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Task3_D_latch_struct.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Task3_D_latch_struct.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Task3_D_latch_struct.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Task3_D_latch_struct.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Task3_D_latch_struct.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Task3_D_latch_struct.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Task3_D_latch_struct.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Task3_D_latch_struct.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Task3_D_latch_struct.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Task3_D_latch_struct.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Task3_D_latch_struct.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Task3_D_latch_struct.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Task3_D_latch_struct_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Task3_D_latch_struct_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Task3_D_latch_struct_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Task3_D_latch_struct_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Task3_D_latch_struct_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Task3_D_latch_struct_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Task3_D_latch_struct_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Task3_D_latch_struct_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Task3_D_latch_struct_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Task3_D_latch_struct_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Task3_D_latch_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Task3_D_latch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Task3_D_latch_tb_isim_beh.wdb"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Task3_D_latch_tb_isim_par.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Task4_D_latch_with_permition_beh.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Task4_D_latch_with_permition_beh.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Task4_D_latch_with_permition_beh.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Task4_D_latch_with_permition_beh.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Task4_D_latch_with_permition_beh.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Task4_D_latch_with_permition_beh.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Task4_D_latch_with_permition_beh.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Task4_D_latch_with_permition_beh.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Task4_D_latch_with_permition_beh.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Task4_D_latch_with_permition_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Task4_D_latch_with_permition_beh.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Task4_D_latch_with_permition_beh.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Task4_D_latch_with_permition_beh.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Task4_D_latch_with_permition_beh.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Task4_D_latch_with_permition_beh.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Task4_D_latch_with_permition_beh.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Task4_D_latch_with_permition_beh_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Task4_D_latch_with_permition_beh_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Task4_D_latch_with_permition_beh_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Task4_D_latch_with_permition_beh_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Task4_D_latch_with_permition_beh_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Task4_D_latch_with_permition_beh_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Task4_D_latch_with_permition_beh_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Task4_D_latch_with_permition_beh_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Task4_D_latch_with_permition_beh_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Task4_D_latch_with_permition_struct.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Task4_D_latch_with_permition_struct.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Task4_D_latch_with_permition_struct.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Task4_D_latch_with_permition_struct.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Task4_D_latch_with_permition_struct.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Task4_D_latch_with_permition_struct.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Task4_D_latch_with_permition_struct.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Task4_D_latch_with_permition_struct.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Task4_D_latch_with_permition_struct.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Task4_D_latch_with_permition_struct.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Task4_D_latch_with_permition_struct.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Task4_D_latch_with_permition_struct.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Task4_D_latch_with_permition_struct.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Task4_D_latch_with_permition_struct.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Task4_D_latch_with_permition_struct.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Task4_D_latch_with_permition_struct.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Task4_D_latch_with_permition_struct_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Task4_D_latch_with_permition_struct_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Task4_D_latch_with_permition_struct_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Task4_D_latch_with_permition_struct_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Task4_D_latch_with_permition_struct_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Task4_D_latch_with_permition_struct_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Task4_D_latch_with_permition_struct_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Task4_D_latch_with_permition_struct_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Task4_D_latch_with_permition_struct_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Task4_D_latch_with_permition_struct_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Task4_D_latch_with_permition_tb_isim_beh.exe"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Task4_D_latch_with_permition_tb_isim_par.exe"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Task4_D_latch_with_permition_tb_isim_translate.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Task4_D_latch_with_permition_tb_isim_translate.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Task4_D_latch_with_permition_tb_translate.prj"/>
+    <file xil_pn:branch="PostMapSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Task5_D_trigger_AP_tb_isim_map.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Task5_D_trigger_AP_tb_isim_map.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Task5_D_trigger_AP_tb_map.prj"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Task5_D_trigger_tb_isim_par.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Task5_JK_trigger_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Task5_JK_trigger_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Task5_JK_trigger_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xpwr.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostTranslateSimulation"/>
+      <branch xil_pn:name="PostMapSimulation"/>
+      <branch xil_pn:name="PostRouteSimulation"/>
+    </file>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostTranslateSimulation"/>
+      <branch xil_pn:name="PostMapSimulation"/>
+      <branch xil_pn:name="PostRouteSimulation"/>
+    </file>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
+    <file xil_pn:branch="PostMapSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/map/Task4_D_latch_with_permition_struct_map.nlf"/>
+    <file xil_pn:branch="PostMapSimulation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/map/Task4_D_latch_with_permition_struct_map.v"/>
+    <file xil_pn:branch="PostMapSimulation" xil_pn:fileType="FILE_SDF" xil_pn:name="netgen/map/task4_d_latch_with_permition_struct_map.sdf"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/par/Task2_RS_latch_struct_timesim.nlf"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/par/Task2_RS_latch_struct_timesim.v"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/par/Task3_D_latch_beh_timesim.nlf"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/par/Task3_D_latch_beh_timesim.v"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/par/Task3_D_latch_struct_timesim.nlf"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/par/Task3_D_latch_struct_timesim.v"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/par/Task4_D_latch_with_permition_beh_timesim.nlf"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/par/Task4_D_latch_with_permition_beh_timesim.v"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/par/Task4_D_latch_with_permition_struct_timesim.nlf"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/par/Task4_D_latch_with_permition_struct_timesim.v"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_SDF" xil_pn:name="netgen/par/task2_rs_latch_struct_timesim.sdf"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_SDF" xil_pn:name="netgen/par/task3_d_latch_beh_timesim.sdf"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_SDF" xil_pn:name="netgen/par/task3_d_latch_struct_timesim.sdf"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_SDF" xil_pn:name="netgen/par/task4_d_latch_with_permition_beh_timesim.sdf"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_SDF" xil_pn:name="netgen/par/task4_d_latch_with_permition_struct_timesim.sdf"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/translate/Task4_D_latch_with_permition_struct_translate.nlf"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/translate/Task4_D_latch_with_permition_struct_translate.v"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostTranslateSimulation"/>
+      <branch xil_pn:name="PostMapSimulation"/>
+      <branch xil_pn:name="PostRouteSimulation"/>
+    </file>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1604039800" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1604039800">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623922" xil_pn:in_ck="5346110862528866372" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1605623922">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="My_AND2.vhd"/>
+      <outfile xil_pn:name="My_Invertor.vhd"/>
+      <outfile xil_pn:name="My_NOR2.vhd"/>
+      <outfile xil_pn:name="Task1_Bi_stable_element.vhd"/>
+      <outfile xil_pn:name="Task2_RS_latch_beh.vhd"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct.vhd"/>
+      <outfile xil_pn:name="Task2_RS_latch_tb.vhd"/>
+      <outfile xil_pn:name="Task3_D_latch_beh.vhd"/>
+      <outfile xil_pn:name="Task3_D_latch_struct.vhd"/>
+      <outfile xil_pn:name="Task3_D_latch_tb.vhd"/>
+      <outfile xil_pn:name="Task4_D_latch_with_permition_beh.vhd"/>
+      <outfile xil_pn:name="Task4_D_latch_with_permition_struct.vhd"/>
+      <outfile xil_pn:name="Task4_D_latch_with_permition_tb.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger_AP_tb.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger_AR_tb.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger_async_preset.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger_async_preset_async_reset.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger_async_reset.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger_tb.vhd"/>
+      <outfile xil_pn:name="Task5_JK_trigger.vhd"/>
+      <outfile xil_pn:name="Task5_RS_trigger.vhd"/>
+      <outfile xil_pn:name="Task_T_trigger.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623922" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8268411189171876476" xil_pn:start_ts="1605623922">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623922" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-7107684247596694982" xil_pn:start_ts="1605623922">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623922" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="5206617357700996719" xil_pn:start_ts="1605623922">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623922" xil_pn:in_ck="5346110862528866372" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1605623922">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="My_AND2.vhd"/>
+      <outfile xil_pn:name="My_Invertor.vhd"/>
+      <outfile xil_pn:name="My_NOR2.vhd"/>
+      <outfile xil_pn:name="Task1_Bi_stable_element.vhd"/>
+      <outfile xil_pn:name="Task2_RS_latch_beh.vhd"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct.vhd"/>
+      <outfile xil_pn:name="Task2_RS_latch_tb.vhd"/>
+      <outfile xil_pn:name="Task3_D_latch_beh.vhd"/>
+      <outfile xil_pn:name="Task3_D_latch_struct.vhd"/>
+      <outfile xil_pn:name="Task3_D_latch_tb.vhd"/>
+      <outfile xil_pn:name="Task4_D_latch_with_permition_beh.vhd"/>
+      <outfile xil_pn:name="Task4_D_latch_with_permition_struct.vhd"/>
+      <outfile xil_pn:name="Task4_D_latch_with_permition_tb.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger_AP_tb.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger_AR_tb.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger_async_preset.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger_async_preset_async_reset.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger_async_reset.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger_tb.vhd"/>
+      <outfile xil_pn:name="Task5_JK_trigger.vhd"/>
+      <outfile xil_pn:name="Task5_RS_trigger.vhd"/>
+      <outfile xil_pn:name="Task_T_trigger.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623925" xil_pn:in_ck="5346110862528866372" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2672872120894911073" xil_pn:start_ts="1605623922">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Task5_JK_trigger_beh.prj"/>
+      <outfile xil_pn:name="Task5_JK_trigger_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623926" xil_pn:in_ck="-8503883275675348000" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="748810867601640644" xil_pn:start_ts="1605623925">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Task5_JK_trigger_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623710" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1605623710">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623710" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="8613928618562619455" xil_pn:start_ts="1605623710">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623710" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="5206617357700996719" xil_pn:start_ts="1605623710">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623710" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1605623710">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623710" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5470672032307415489" xil_pn:start_ts="1605623710">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623710" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="250970745955965653" xil_pn:start_ts="1605623710">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623710" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1318047371577749433" xil_pn:start_ts="1605623710">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623720" xil_pn:in_ck="-4427270542601504292" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="6579005871695279518" xil_pn:start_ts="1605623710">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct.lso"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct.ngc"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct.ngr"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct.prj"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct.stx"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct.syr"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct.xst"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623720" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="1428034841066086124" xil_pn:start_ts="1605623720">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623726" xil_pn:in_ck="-5037257092290005522" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="9183123266604301648" xil_pn:start_ts="1605623720">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct.bld"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct.ngd"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623735" xil_pn:in_ck="-80127962313675885" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="6093601622908603872" xil_pn:start_ts="1605623726">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct.pcf"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct_map.map"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct_map.mrp"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct_map.ncd"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct_map.ngm"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct_map.xrpt"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct_summary.xml"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623748" xil_pn:in_ck="-1775816519406712272" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="93661965788626211" xil_pn:start_ts="1605623735">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct.ncd"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct.pad"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct.par"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct.ptwx"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct.unroutes"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct.xpi"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct_pad.csv"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct_pad.txt"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623754" xil_pn:in_ck="-8785130539354881409" xil_pn:name="TRAN_postParSimModel" xil_pn:prop_ck="-5065991183762113259" xil_pn:start_ts="1605623748">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/par/Task2_RS_latch_struct_timesim.nlf"/>
+      <outfile xil_pn:name="netgen/par/Task2_RS_latch_struct_timesim.v"/>
+      <outfile xil_pn:name="netgen/par/task2_rs_latch_struct_timesim.sdf"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623802" xil_pn:in_ck="-6560932475430177363" xil_pn:name="TRAN_copyPost-ParAbstractToPreSimulation" xil_pn:start_ts="1605623802">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Task2_RS_latch_tb.vhd"/>
+      <outfile xil_pn:name="Task3_D_latch_tb.vhd"/>
+      <outfile xil_pn:name="Task4_D_latch_with_permition_tb.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger_AP_tb.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger_AR_tb.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger_tb.vhd"/>
+      <outfile xil_pn:name="netgen/par/Task2_RS_latch_struct_timesim.v"/>
+      <outfile xil_pn:name="netgen/par/Task3_D_latch_beh_timesim.v"/>
+      <outfile xil_pn:name="netgen/par/Task3_D_latch_struct_timesim.v"/>
+      <outfile xil_pn:name="netgen/par/Task4_D_latch_with_permition_beh_timesim.v"/>
+      <outfile xil_pn:name="netgen/par/Task4_D_latch_with_permition_struct_timesim.v"/>
+      <outfile xil_pn:name="netgen/par/task2_rs_latch_struct_timesim.sdf"/>
+      <outfile xil_pn:name="netgen/par/task3_d_latch_beh_timesim.sdf"/>
+      <outfile xil_pn:name="netgen/par/task3_d_latch_struct_timesim.sdf"/>
+      <outfile xil_pn:name="netgen/par/task4_d_latch_with_permition_beh_timesim.sdf"/>
+      <outfile xil_pn:name="netgen/par/task4_d_latch_with_permition_struct_timesim.sdf"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623806" xil_pn:in_ck="-8696026553114299255" xil_pn:name="TRAN_ISimulatePostPlace&amp;RouteModelRunFuse" xil_pn:prop_ck="-7366158895389879640" xil_pn:start_ts="1605623802">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Task2_RS_latch_tb_isim_par.exe"/>
+      <outfile xil_pn:name="Task2_RS_latch_tb_par.prj"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623806" xil_pn:in_ck="-2357774277309463412" xil_pn:name="TRAN_ISimulatePostPlace&amp;RouteModel" xil_pn:prop_ck="-4392768883075166687" xil_pn:start_ts="1605623806">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Task2_RS_latch_tb_isim_par.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1605623748" xil_pn:in_ck="-8785130539354881409" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1605623742">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct.twr"/>
+      <outfile xil_pn:name="Task2_RS_latch_struct.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1605538476" xil_pn:in_ck="4892120586789788191" xil_pn:name="TRAN_copyPost-MapAbstractToPreSimulation" xil_pn:start_ts="1605538476">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Task2_RS_latch_tb.vhd"/>
+      <outfile xil_pn:name="Task3_D_latch_tb.vhd"/>
+      <outfile xil_pn:name="Task4_D_latch_with_permition_tb.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger_AP_tb.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger_AR_tb.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger_tb.vhd"/>
+      <outfile xil_pn:name="netgen/map/Task4_D_latch_with_permition_struct_map.v"/>
+      <outfile xil_pn:name="netgen/map/task4_d_latch_with_permition_struct_map.sdf"/>
+    </transform>
+    <transform xil_pn:end_ts="1605538484" xil_pn:in_ck="-4939279363090220080" xil_pn:name="TRAN_ISimulatePostMapModelRunFuse" xil_pn:prop_ck="6653504840150737052" xil_pn:start_ts="1605538476">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Task5_D_trigger_AP_tb_isim_map.exe"/>
+      <outfile xil_pn:name="Task5_D_trigger_AP_tb_map.prj"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1605538484" xil_pn:in_ck="-3842598607428565631" xil_pn:name="TRAN_ISimulatePostMapModel" xil_pn:prop_ck="4279909140044770062" xil_pn:start_ts="1605538484">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Task5_D_trigger_AP_tb_isim_map.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1605538834" xil_pn:in_ck="-6441229318456099152" xil_pn:name="TRAN_copyPost-TranslateAbstractToPreSimulation" xil_pn:start_ts="1605538834">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Task2_RS_latch_tb.vhd"/>
+      <outfile xil_pn:name="Task3_D_latch_tb.vhd"/>
+      <outfile xil_pn:name="Task4_D_latch_with_permition_tb.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger_AP_tb.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger_AR_tb.vhd"/>
+      <outfile xil_pn:name="Task5_D_trigger_tb.vhd"/>
+      <outfile xil_pn:name="netgen/translate/Task4_D_latch_with_permition_struct_translate.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1605538838" xil_pn:in_ck="-6441229318456099152" xil_pn:name="TRAN_ISimulatePostTranslateModelRunFuse" xil_pn:prop_ck="-7081022435000582260" xil_pn:start_ts="1605538834">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Task4_D_latch_with_permition_tb_isim_translate.exe"/>
+      <outfile xil_pn:name="Task4_D_latch_with_permition_tb_translate.prj"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1605538839" xil_pn:in_ck="-3295233844175935543" xil_pn:name="TRAN_ISimulatePostTranslateModel" xil_pn:prop_ck="5065557169460040902" xil_pn:start_ts="1605538838">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Task4_D_latch_with_permition_tb_isim_translate.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,29 @@
+Command line:
+   Task2_RS_latch_tb_isim_par.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50424
+
+Tue Nov 17 17:36:48 2020
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5149.76 Meg
+
+ Total Signals          : 145
+ Total Nets             : 87
+ Total Signal Drivers   : 83
+ Total Blocks           : 42
+ Total Primitive Blocks : 33
+ Total Processes        : 86
+ Total Traceable Variables  : 103
+ Total Scalar Nets and Variables : 3222
+Total Line Count : 166
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 5464.33 Meg
+
+Tue Nov 17 17:37:29 2020
+

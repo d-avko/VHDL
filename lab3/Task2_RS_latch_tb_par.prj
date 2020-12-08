@@ -1,0 +1,2 @@
+verilog work "netgen/par/Task2_RS_latch_struct_timesim.v"
+vhdl work "Task2_RS_latch_tb.vhd"

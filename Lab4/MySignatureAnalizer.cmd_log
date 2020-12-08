@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/XilinxLabs/Lab4/MySignatureAnalizer.xst" -ofn "D:/XilinxLabs/Lab4/MySignatureAnalizer.syr" 
