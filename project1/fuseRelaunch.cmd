@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/VHDL/project/tb_digital_clock_isim_beh.exe" -prj "C:/VHDL/project/tb_digital_clock_beh.prj" "work.tb_digital_clock" 

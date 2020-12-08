@@ -1,0 +1,37 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Dec 03 18:03:50 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "led_d" LOCATE = SITE "L4" LEVEL 1;
+COMP "led_f" LOCATE = SITE "M2" LEVEL 1;
+COMP "led_a" LOCATE = SITE "L3" LEVEL 1;
+COMP "sel<0>" LOCATE = SITE "N6" LEVEL 1;
+COMP "sel<1>" LOCATE = SITE "M6" LEVEL 1;
+COMP "sel<2>" LOCATE = SITE "M3" LEVEL 1;
+COMP "sel<3>" LOCATE = SITE "N5" LEVEL 1;
+COMP "sel<4>" LOCATE = SITE "N2" LEVEL 1;
+COMP "sel<5>" LOCATE = SITE "N4" LEVEL 1;
+COMP "sel<6>" LOCATE = SITE "L1" LEVEL 1;
+COMP "sel<7>" LOCATE = SITE "M1" LEVEL 1;
+COMP "led_c" LOCATE = SITE "L5" LEVEL 1;
+COMP "led_e" LOCATE = SITE "K3" LEVEL 1;
+COMP "led_g" LOCATE = SITE "L6" LEVEL 1;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "clr" LOCATE = SITE "P4" LEVEL 1;
+COMP "div" LOCATE = SITE "T16" LEVEL 1;
+COMP "mult" LOCATE = SITE "V10" LEVEL 1;
+COMP "equals" LOCATE = SITE "E16" LEVEL 1;
+COMP "plus" LOCATE = SITE "F15" LEVEL 1;
+COMP "minus" LOCATE = SITE "R10" LEVEL 1;
+COMP "input<0>" LOCATE = SITE "U9" LEVEL 1;
+COMP "input<1>" LOCATE = SITE "U8" LEVEL 1;
+COMP "input<2>" LOCATE = SITE "R7" LEVEL 1;
+COMP "input<3>" LOCATE = SITE "R6" LEVEL 1;
+COMP "input<4>" LOCATE = SITE "R5" LEVEL 1;
+COMP "input<5>" LOCATE = SITE "V7" LEVEL 1;
+COMP "input<6>" LOCATE = SITE "V6" LEVEL 1;
+COMP "input<7>" LOCATE = SITE "V5" LEVEL 1;
+COMP "led_b" LOCATE = SITE "N1" LEVEL 1;
+SCHEMATIC END;
+

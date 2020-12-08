@@ -1,0 +1,242 @@
+ISim log file
+Running: C:\VHDL\project\tb_digital_clock_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/VHDL/project/tb_digital_clock_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is set to 'C:\Users\Denni\OneDrive\ê†°ÆÁ®© ·‚Æ´\xilinx_ise.lic'.
+INFO:Security:53 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68a - user is Denni, on host DESKTOP-ARINDAM.
+WARNING:Security:43 - No license file was found in the standard Xilinx license directory.
+WARNING:Security:44 - Since no license file was found,
+       please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses")
+       to assist in obtaining a license.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+No such feature exists.
+Feature:       ISIM
+License path:  C:\Users\Denni\OneDrive\—í¬†–é¬Æ–∑–Å¬© –±–≤¬Æ¬´\xilinx_ise.lic;C:/.Xilinx;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;C:\Users\Denni\OneDrive\ê†°ÆÁ®© ·‚Æ´\xilinx_ise.lic;
+FLEXnet Licensing error:-5,357
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 0 ps, Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 0 ps, Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+Finished circuit initialization process.
+at 0 ps, Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 25 ps(1), Instance /tb_digital_clock/uut/display/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# run all
+at 3936625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 7779625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 11622625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 15465625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 19308625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 23151625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 26994625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 30837625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 34680625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 38523625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 42366625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 46209625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 50052625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 53895625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 57738625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 61581625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 65424625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 69267625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 73110625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 76953625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 80796625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 84639625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 88482625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 92325625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 96168625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 100011625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 103854625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 107697625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 111540625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 115383625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 119226625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 123069625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 126912625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 130755625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 134598625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 138441625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 142284625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 146127625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 149970625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 153813625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 153813625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 157656625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 161499625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 165342625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 169185625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 173028625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 176871625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 180714625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 184557625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 188400625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 192243625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 196086625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 199929625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 203772625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 207615625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 211458625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 215301625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 219144625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 222987625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 226830625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 230673625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 234516625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 238359625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 242202625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 246045625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 249888625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 253731625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 257574625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 261417625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 265260625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 269103625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 272946625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 276789625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 280632625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 284475625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 288318625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 292161625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 296004625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 299847625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 303690625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 307533625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 311376625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 315219625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 319062625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 322905625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 326748625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 330591625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 334434625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 338277625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 342120625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 345963625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 349806625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 353649625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 357492625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 361335625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 365178625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 369021625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 372864625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 376707625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 380550625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 384393625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 384393625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 388236625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 392079625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 395922625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 399765625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 403608625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 407451625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 411294625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 415137625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 418980625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 422823625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 426666625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 430509625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 434352625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 438195625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 442038625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 445881625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 449724625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 453567625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 457410625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 461253625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 465096625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 468939625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 472782625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 476625625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 480468625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 484311625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 488154625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 491997625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 495840625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 499683625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 503526625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 507369625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 511212625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 515055625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 518898625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 522741625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 526584625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 530427625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 534270625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 538113625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 541956625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 545799625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 549642625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 553485625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 557328625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 561171625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 565014625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 568857625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 572700625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 576543625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 580386625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 584229625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 588072625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 591915625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 595758625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 599601625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 603444625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 607287625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 611130625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 614973625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 614973625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 618816625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 622659625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 626502625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 630345625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 634188625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 638031625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 641874625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 645717625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 649560625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 653403625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 657246625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 661089625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 664932625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 668775625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 672618625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 676461625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 680304625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 684147625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 687990625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 691833625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 695676625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 699519625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 703362625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 707205625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 711048625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 714891625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 718734625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 722577625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 726420625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 730263625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 734106625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 737949625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 741792625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 745635625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 749478625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 753321625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 757164625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 761007625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 764850625 ps(4), Instance /tb_digital_clock/uut/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+Stopped at time : 768235875 ps : File "C:/VHDL/project/digital_clock_test.vhd" Line 89

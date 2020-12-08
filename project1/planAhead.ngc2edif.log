@@ -1,0 +1,110 @@
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design main.ngc ...
+WARNING:NetListWriters:298 - No output is written to main.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   first_value[31]_input[7]_div_109/Madd_GND_83_o_b[7]_add_15_OUT_Madd_Madd_cy[2
+   9 : 27] on block main is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   first_value[31]_input[7]_div_109/Madd_GND_83_o_b[7]_add_13_OUT_Madd_Madd_cy[3
+   0 : 28] on block main is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   first_value[31]_input[7]_div_109/a[31]_a[31]_mux_1_OUT[31 : 0] on block main
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file main.edif ...
+ngc2edif: Total memory usage is 4324232 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design main.ngc ...
+WARNING:NetListWriters:298 - No output is written to main.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   first_value[31]_input[7]_div_109/Madd_GND_83_o_b[7]_add_15_OUT_Madd_Madd_cy[2
+   9 : 27] on block main is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   first_value[31]_input[7]_div_109/Madd_GND_83_o_b[7]_add_13_OUT_Madd_Madd_cy[3
+   0 : 28] on block main is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   first_value[31]_input[7]_div_109/a[31]_a[31]_mux_1_OUT[31 : 0] on block main
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file main.edif ...
+ngc2edif: Total memory usage is 4323660 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design main.ngc ...
+WARNING:NetListWriters:298 - No output is written to main.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   first_value[31]_input[7]_div_109/Madd_GND_83_o_b[7]_add_15_OUT_Madd_Madd_cy[2
+   9 : 27] on block main is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   first_value[31]_input[7]_div_109/Madd_GND_83_o_b[7]_add_13_OUT_Madd_Madd_cy[3
+   0 : 28] on block main is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   first_value[31]_input[7]_div_109/a[31]_a[31]_mux_1_OUT[31 : 0] on block main
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file main.edif ...
+ngc2edif: Total memory usage is 4323660 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design main.ngc ...
+WARNING:NetListWriters:298 - No output is written to main.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   first_value[31]_input[7]_div_109/Madd_GND_85_o_b[7]_add_15_OUT_Madd_Madd_cy[2
+   9 : 27] on block main is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   first_value[31]_input[7]_div_109/Madd_GND_85_o_b[7]_add_13_OUT_Madd_Madd_cy[3
+   0 : 28] on block main is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   first_value[31]_input[7]_div_109/a[31]_a[31]_mux_1_OUT[31 : 0] on block main
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file main.edif ...
+ngc2edif: Total memory usage is 4323660 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design main.ngc ...
+WARNING:NetListWriters:298 - No output is written to main.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   first_value[31]_input[7]_div_110/Madd_GND_6_o_b[7]_add_15_OUT_Madd_Madd_cy<29
+   : 27> on block main is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   first_value[31]_input[7]_div_110/Madd_GND_6_o_b[7]_add_13_OUT_Madd_Madd_cy<30
+   : 28> on block main is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   first_value[31]_input[7]_div_110/a[31]_a[31]_mux_1_OUT<31 : 0> on block main
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file main.edif ...
+ngc2edif: Total memory usage is 4323660 kilobytes
+

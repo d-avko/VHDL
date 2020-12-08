@@ -1,0 +1,4 @@
+vhdl work "bcd_7segment.vhd"
+vhdl work "sSegDisplay.vhd"
+vhdl work "main.vhd"
+vhdl work "digital_clock_test.vhd"

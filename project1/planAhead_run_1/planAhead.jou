@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Dec 03 17:23:56 2020
+# Process ID: 10076
+# Log file: D:/temp/project/planAhead_run_1/planAhead.log
+# Journal file: D:/temp/project/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/temp/project/pa.fromNetlist.tcl

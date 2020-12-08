@@ -1,0 +1,4 @@
+vhdl isim_temp "bcd_7segment.vhd"
+vhdl isim_temp "sSegDisplay.vhd"
+vhdl isim_temp "main.vhd"
+vhdl isim_temp "digital_clock_test.vhd"
